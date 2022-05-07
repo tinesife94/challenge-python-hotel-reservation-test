@@ -7,9 +7,6 @@ def get_cheapest_hotel(number):   #DO NOT change the function's name
 def get_winner(hotels, inputs):
     return sorted(sorted(hotels, key=lambda h: h.classification, reverse=True), key=lambda h: h.get_sum_of_prices(inputs))[0]
 
-def get_hotels():
-    return [lakewood, bridgewood, ridgewood]
-
 def convert_input(input_string):
     reward, is_weekend_list = clear_input_string(input_string)
     return [{'reward': reward, 'weekend': weekend} for weekend in is_weekend_list]
