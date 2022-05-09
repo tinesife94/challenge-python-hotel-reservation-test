@@ -1,4 +1,4 @@
-""" Provides the get_cheapest_hotel() funcion.
+""" Has the get_cheapest_hotel() function.
 
 Mudule provided with the problem.
 """
