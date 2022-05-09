@@ -27,7 +27,7 @@ def is_reward_client(client_type):
     Reward and Rewards.
     """
     #return client_type == 'Rewards'
-    return client_type.startswith('Rew')
+    return client_type in ('Reward', 'Rewards')
 
 def are_weekends(dates):
     """Used to get the client's schedule in a more friendly format."""
